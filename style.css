@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {font-family:'MuseoSansRounded-900', cursive; color:#292C78;}
+
+.container {
+	position: relative;
+	margin: 20px auto;
+	z-index: 2;
+	width: 440px;
+	height: 690px;
+	border: 1px solid #000;
+	padding: 30px;
+}
+
+h1,h2,h3,a {
+	font-family:'MuseoSansRounded-900', cursive;
+    text-transform: uppercase;
+    background-image: url(dots.png);
+    background-repeat: repeat-x;
+    background-position: bottom;   
+}
+
+.screenshot {width: 160px; float: right;}
+.date, .now-content {
+    font-family:'MuseoSansRounded-700', cursive;
+    text-transform: uppercase;
+    font-size: 2.6em;
+    width: 380px;
+    background-image: url(dots-2.png);
+    background-position: bottom;
+ }
+
+.now-circle-container {position: absolute; display: block; font-family:'MuseoSansRounded-700', cursive; text-transform: uppercase; color: #fff;top: 340px;left: 150px;}
+.now-circle-container p {position: relative; display: block; font-size: 1.8em;top: 100px; left: 30px; }
+.date, .pink {color: #D8127D;}
+.now-content {color: #292C78;}
+.ord {vertical-align: super; font-size: 0.6em;}
+.links{	margin-top: 8rem;}
+a {text-decoration: none;}
+.footer-words {position: absolute; display: block;padding-left: 0px; bottom: 10px; font-size: 0.8em; width: 100%;}
+.footer-words p {margin-top: -20px;}
+.logo-bottom {margin-left: 210px;}
+input[type="submit"]{background:  #D8127D; padding: 10px 25px; color: #fff; border: none; font-family:'MuseoSansRounded-700', cursive; font-size: 1.2em; text-transform: uppercase;-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
