@@ -38,7 +38,6 @@ function ordinal($number) {
 
     </div>
 </div>
-<a href="http://www.jamesgadsby.co.uk/"><p>By James Gadsby Peet</p></a>
 
 </body>
 </html>

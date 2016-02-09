@@ -18,7 +18,6 @@
     <img src="screenshot.jpg" class="screenshot">
     </div>
 </div>
-    <a href="http://www.jamesgadsby.co.uk/"><p>By James Gadsby Peet</p></a>
 <script>
 $(document).ready(function() {
     var text_max = 80;
